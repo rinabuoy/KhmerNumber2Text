@@ -86,4 +86,3 @@ def Num2Word(num, space):
     return "{}{}ចុច{}{}{}".format( int2Word(digit, space), space, lead_zero, space, int2Khmer(precision, space))
 
 
-print(Num2Word("20000001",''))
